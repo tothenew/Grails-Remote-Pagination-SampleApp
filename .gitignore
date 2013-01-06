@@ -1,0 +1,15 @@
+*.iml
+*.ipr
+*.project
+*.classpath
+*.iws
+*.idea
+*/target/*
+*/target-eclipse/*
+.settings/*
+.settings
+*/*.zip
+*/*.sha1
+stacktrace.log
+target/
+**/*.html
