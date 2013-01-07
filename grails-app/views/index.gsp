@@ -89,6 +89,7 @@
                 <ul>
                         <li class="controller"><g:link controller="book" action="list">Tag remotePaginate & remotePageScroll Demo</g:link></li>
                         <li class="controller"><g:link controller="comment" action="list">Tag remotePageScroll Demo</g:link></li>
+                        <li class="controller"><g:link controller="content" action="list">Tag remoteNonStopPageScroll Demo</g:link></li>
                 </ul>
             </div>
         </div>
