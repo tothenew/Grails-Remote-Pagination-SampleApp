@@ -89,3 +89,5 @@ log4j = {
 
     warn   'org.mortbay.log'
 }
+
+grails.plugins.remotepagination.max=15
