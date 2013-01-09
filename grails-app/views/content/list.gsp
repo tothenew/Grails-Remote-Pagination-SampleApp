@@ -66,6 +66,7 @@
     <div class="list" id="content">
         <g:render template="filter"/>
     </div>
+    <div id="loadingDivId" style="display: none;"><img src="${resource(dir:'images', file:'loading.png')}" alt=""/></div>
 </div>
 </body>
 </html>

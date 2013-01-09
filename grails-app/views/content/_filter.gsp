@@ -4,4 +4,4 @@
     </fieldset>
 </g:each>
 
-<util:remoteNonStopPageScroll action='filter' controller="content"  total="${total}" update="content" />
+<util:remoteNonStopPageScroll action='filter' controller="content"  total="${total}" update="content" loadingHTML="loadingDivId"/>
