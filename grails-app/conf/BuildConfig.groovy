@@ -32,6 +32,6 @@ grails.project.dependency.resolution = {
 
     }
     plugins{
-        compile ':remote-pagination:0.4.1'
+        compile ':remote-pagination:0.4.5'
     }
 }

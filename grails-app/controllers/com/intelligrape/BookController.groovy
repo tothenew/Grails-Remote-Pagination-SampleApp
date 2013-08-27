@@ -4,7 +4,8 @@ class BookController {
     def scaffold = true
 
     def list = {
-        [bookInstanceList: Book.list(max:10,offset: 0), bookInstanceTotal: Book.count()]
+        params.max = Math.min(params.max ? params.int('max') : 10, 100)
+        [bookInstanceList: Book.list(max:params.int('max'),offset: 0), bookInstanceTotal: Book.count()]
     }
 
     def filter = {
